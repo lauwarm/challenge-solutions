@@ -1,4 +1,4 @@
-package io.github.lauwarm;
+package io.github.lauwarm.cryptopals;
 
 import org.apache.commons.codec.DecoderException;
 import org.apache.commons.codec.binary.Base64;
@@ -6,8 +6,20 @@ import org.apache.commons.codec.binary.Hex;
 
 public class CryptopalsSet1Challenge1 {
 
-	public CryptopalsSet1Challenge1() {
-		
+	private final String input;
+	private final String output;
+
+	public CryptopalsSet1Challenge1(String input, String output) {
+		this.input = input;
+		this.output = output;
+	}
+	
+	public String getInput() {
+		return input;
+	}
+	
+	public String getOutput() {
+		return output;
 	}
 	
 	public static String solution(String s) {
