@@ -101,4 +101,13 @@ public class ControllerProjecteuler {
     	}
     }
     
+    @GetMapping(value = {"/projecteuler_11", "/projecteuler_11/{input}"})
+    public Projecteuler11 projecteuler11(@PathVariable Optional <String> input) {
+    	if (input.isPresent()) {
+    		return new Projecteuler11(input.get(), Projecteuler11.solution(input.get()));
+    	} else {
+    		return new Projecteuler11("", Projecteuler11.solution(""));
+    	}
+    }
+    
 }

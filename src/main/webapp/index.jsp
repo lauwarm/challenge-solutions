@@ -61,6 +61,34 @@
 			<td>Summation of primes <a href="https://projecteuler.net/problem=10">(External Link)</a></td>
 			<td><a href="${pageContext.request.contextPath}/projecteuler_10">Projecteuler 10</a></td>
 		</tr>
+		<tr>
+			<td>Largest product in a grid <a href="https://projecteuler.net/problem=11">(External Link)</a></td>
+			<td><a href="${pageContext.request.contextPath}/projecteuler_11">Projecteuler 11</a></td>
+		</tr>
+		<tr>
+			<th>Kattis Problems</th>
+			<th>Solution</th>
+		</tr>
+		<tr>
+			<td>Hello World! <a href="https://open.kattis.com/problems/hello">(External Link)</a></td>
+			<td><a href="${pageContext.request.contextPath}/kattis_hello">Kattis Hello World!</a></td>
+		</tr>
+		<tr>
+			<td>Take Two Stones <a href="https://open.kattis.com/problems/twostones">(External Link)</a></td>
+			<td><a href="${pageContext.request.contextPath}/kattis_twostones">Kattis Take Two Stones</a></td>
+		</tr>
+		<tr>
+			<td>Stuck In A Time Loop <a href="https://open.kattis.com/problems/timeloop">(External Link)</a></td>
+			<td><a href="${pageContext.request.contextPath}/kattis_timeloop">Kattis Stuck In A Time Loop</a></td>
+		</tr>
+		<tr>
+			<td>Solving for Carrots <a href="https://open.kattis.com/problems/carrots">(External Link)</a></td>
+			<td><a href="${pageContext.request.contextPath}/kattis_carrots">Kattis Solving for Carrots</a></td>
+		</tr>
+		<tr>
+			<td>R2 <a href="https://open.kattis.com/problems/r2">(External Link)</a></td>
+			<td><a href="${pageContext.request.contextPath}/kattis_r2">Kattis R2</a></td>
+		</tr>
 	</table>
 </body>
 </html>
